@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final Prediction</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+      background: #c5e1a5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .container {
+      width: 400px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+    .tier {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .btn-back {
+      text-decoration: none;
+      font-weight: 600;
+      background: #7cb342;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .btn-back:hover {
+      background: #689f38;
+    }
+    .icon {
+      width: 50px;   /* Adjust as desired */
+      height: auto;  /* Keep aspect ratio */
+      margin-left: 10px;
+      vertical-align: middle; /* Align with text */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Final Prediction</h1>
+    {% if predicted_tier %}
+      <div class="tier">Your Predicted Tier: <strong>{{ predicted_tier|title }}</strong>
+        <img 
+        src="{{ url_for('static', filename='images/' ~ icon_filename) }}" 
+        alt="Icon for {{ predicted_tier }}" 
+        class="icon"
+      >
+    </div>
+    {% else %}
+      <p>No tier predicted. Please go through the steps again.</p>
+    {% endif %}
+    <a href="{{ url_for('extract') }}" class="btn-back">Go Back</a>
+  </div>
+</body>
+</html>

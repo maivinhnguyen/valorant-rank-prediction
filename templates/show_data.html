@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verify Extracted Data</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+      background: #ffd3b6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .container {
+      width: 500px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    table th, table td {
+      text-align: left;
+      padding: 8px;
+    }
+    table th {
+      background: #f9f9f9;
+    }
+    .btn-predict {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 4px;
+      background: #ff8b94;
+      color: #fff;
+      cursor: pointer;
+    }
+    .btn-predict:hover {
+      background: #e07983;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Extracted Data</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Loop through the dictionary -->
+        {% for key, val in parsed_stats.items() %}
+        <tr>
+          <td>{{ key }}</td>
+          <td>{{ val }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <form method="POST">
+      <button type="submit" class="btn-predict">Predict Tier</button>
+    </form>
+  </div>
+</body>
+</html>

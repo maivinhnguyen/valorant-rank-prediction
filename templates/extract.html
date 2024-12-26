@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Extract Valorant Stats</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+      background: #f4acae;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .container {
+      width: 500px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    textarea {
+      width: 100%;
+      height: 300px;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 4px;
+      background: #ef5b5b;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #d64d4d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Paste Your Stats</h1>
+    <form method="POST">
+      <textarea name="raw_text" placeholder="Paste the entire block of stats here..."></textarea>
+      <button type="submit">Extract Info</button>
+    </form>
+  </div>
+</body>
+</html>
