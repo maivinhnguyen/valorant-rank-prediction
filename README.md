@@ -26,7 +26,28 @@ Try the app live here:
 > ⚠️ **Note:** Free hosting may cause slight delays (up to 50 seconds) for the app to load when inactive.
 
 ---
+## 📋 How to Get Your Stats from Tracker.gg
 
+To use this app, follow these steps to get your stats from **tracker.gg**:
+
+1. **Visit the Valorant Tracker Page:**
+   Go to [tracker.gg](https://tracker.gg) and search for your Valorant profile using your Riot ID.
+
+2. **Navigate to Your Profile:**
+   After finding your profile, ensure you're on the **Overview** tab.
+
+3. **Expand the Stats:**
+   - Scroll down to the **Competitive Overview** section.
+   - Click the **"Show More"** button to expand the stats.
+
+4. **Copy Stats from the Combat Section:**
+   - Locate the **Combat** section on the right panel.
+   - Highlight and copy all the lines in the Combat section (e.g., Ability 1 Casts, ACS, Assists, etc.).
+
+5. **Paste in the App:**
+   Paste the copied stats into the app's text input field.
+
+---
 ## 🛠️ How to Run Locally
 
 Follow these steps to run the project on your local machine:
