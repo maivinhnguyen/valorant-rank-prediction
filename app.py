@@ -18,7 +18,7 @@ tier_mapping = {
     'platinum': 4,
     'diamond': 5,
     'ascendant': 6,
-    'immortal': 7
+    'immortal+': 7
 }
 
 inv_tier_mapping = {v: k for k, v in tier_mapping.items()}
