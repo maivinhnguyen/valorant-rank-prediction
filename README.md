@@ -21,7 +21,7 @@ A simple Flask-based web application that predicts your **Valorant rank** based 
 ## 🚀 Live Demo
 
 Try the app live here:  
-[**Valorant Tier Predictor on Render**](https://valorant-tier-predictor.onrender.com)
+[**Valorant Tier Predictor on Render**](https://valorant-rank-prediction.onrender.com)
 
 > ⚠️ **Note:** Free hosting may cause slight delays (up to 50 seconds) for the app to load when inactive.
 
@@ -133,11 +133,3 @@ Contributions are welcome! Feel free to:
 3. Submit a pull request.
 
 ---
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Let me know if you'd like further tweaks or additions!
