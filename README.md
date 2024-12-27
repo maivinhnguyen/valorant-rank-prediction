@@ -55,7 +55,7 @@ Follow these steps to run the project on your local machine:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/maivinhnguyen/valorant-rank-prediction.git
-cd valorant-tier-predictor
+cd valorant-rank-prediction
 ```
 
 ### 2. Install Dependencies
