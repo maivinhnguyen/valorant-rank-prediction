@@ -159,7 +159,7 @@ def result():
         'platinum': 'platinum.png',
         'diamond': 'diamond.png',
         'ascendant': 'ascendant.png',
-        'immortal': 'immortal.png'
+        'immortal+': 'immortal.png'
     }
 
     # In case predicted_tier is None or something unexpected, we provide a fallback image
