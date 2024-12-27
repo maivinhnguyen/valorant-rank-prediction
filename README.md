@@ -34,10 +34,10 @@ To use this app, follow these steps to get your stats from **tracker.gg**:
    Go to [tracker.gg](https://tracker.gg) and search for your Valorant profile using your Riot ID.
 
 2. **Navigate to Your Profile:**
-   After finding your profile, ensure you're on the **Overview** tab. Also make sure to select **All Acts**.
+   After finding your profile, ensure you're on the **Overview** tab.
 
 3. **Expand the Stats:**
-   - Scroll down to the **Competitive Overview** section.
+   - Scroll down to the **Competitive Overview** section. Also make sure to select **All Acts**.
    - Click the **"Show More"** button to expand the stats.
 
 4. **Copy Stats from the Combat Section:**
