@@ -112,7 +112,7 @@ The model is pre-trained and saved as a `.pkl` file, which is loaded at runtime 
 ## 📂 Project Structure
 
 ```plaintext
-valorant-tier-predictor/
+valorant-rank-prediction/
 ├── app.py                   # Main Flask application
 ├── model.pkl                # Pre-trained Logistic Regression model
 ├── scaler.pkl               # Scaler for preprocessing input data
