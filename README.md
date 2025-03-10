@@ -1,8 +1,8 @@
 
 
-# Valorant Tier Predictor
+# Valorant Tier Predictor (Project at school)
 
-A simple Flask-based web application that predicts your **Valorant rank** based on in-game statistics. This project leverages a **Logistic Regression model** to provide accurate predictions and includes a clean, user-friendly interface.
+A simple Flask-based web application that predicts your **Valorant rank** based on in-game statistics. This project leverages a **Logistic Regression model** to provide accurate predictions and includes a clean, user-friendly interface. 
 
 ---
 
